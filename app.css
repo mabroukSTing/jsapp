@@ -1,0 +1,57 @@
+figure,
+figcaption {
+    margin: 0;
+    padding: 0;
+}
+
+figure {
+    border: 1px solid black;
+    width: 650px;
+    padding: 15px;
+    height: 350px;
+}
+
+figcaption {
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 120%;
+    padding-bottom: .25em;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 10px auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    padding: .2em .7em;
+    text-align: right;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+    text-align: left;
+}
+
+#centre {
+    text-align: center;
+    background-color: silver;
+}
+
+thead,
+tfoot {
+    background-color: aqua;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+td:nth-child(2),
+th:nth-child(2) {
+    text-align: center;
+}
